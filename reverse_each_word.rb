@@ -1,4 +1,4 @@
-def reverse(phrase)
+def reverse_each_word(phrase)
  
   flip = phrase.split("").collect do |word|
     
